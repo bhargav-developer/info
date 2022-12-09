@@ -18,9 +18,11 @@ let side = document.getElementById("sidemenu");
 
 function openmenu(){
     side.style.right = "0px";
+    document.getElementById('bh').style.zIndex = "-1";
 
 }
 function closemenu(){
     side.style.right = "-200px";
+    document.getElementById('bh').style.zIndex = "1";
     
 }
