@@ -72,6 +72,7 @@ nav ul li a:hover::after {
     margin-top: 20%;
     font-size: 30px;
     position: sticky;
+    z-index: -1;
 }
 
 .header-text h1 {
