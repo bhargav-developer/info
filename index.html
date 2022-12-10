@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="contain">
+            <nav>
+                <img src="img/logo.png" class="logo">
+              <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#potfolio">Work</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Conatct</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark bhargav" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars bhargav" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" id="bh">
+                <p>Web Developer</p>
+                <h1>Hi , I Am <span>Bhargav</span><br> From Bengaluru. </h1>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
+        <li style="--i:0;">
+            <a href="#home"><ion-icon name="home-outline"></ion-icon></a>
+        </li>
+        <li style="--i:1;">
+            <a href="#about"><ion-icon name="person-outline"></ion-icon></a>
+        </li>
+        <li style="--i:2;">
+            <a href="#"><ion-icon name="settings-outline"></ion-icon></a>
+        </li>
+        <li style="--i:3;">
+            <a href="#contact"><ion-icon name="chatbox-ellipses-outline"></ion-icon></a>
+        </li>
+        <li style="--i:4;">
+            <a href="#about"><ion-icon name="information-circle-outline"></ion-icon></a>
+        </li>
+        <li style="--i:5;">
+            <a href="#"><ion-icon name="moon-outline"></ion-icon></a>
+        </li>
+        <li style="--i:6;">
+            <a href="#potfolio"><ion-icon name="game-controller-outline"></ion-icon></a>
+        </li>
+        <li style="--i:7;">
+            <a href="#"><ion-icon name="camera-outline"></ion-icon></a>
+        </li>
+       
+</div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="card">
+                        <div class="front-face"></div>
+                        <div class="back-face">
+                            <h2>Bhargav.</h2>
+                            <p>Front-End WEB DEVELOPER</p>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello My Name Is Bhargav , I am A <span class="lol">Front End Developer</span>  And Custom Web designer , I Create Different Types Of Websites like <SPAN class="lol">(GAMES,E-COMMERCE,BUSSINESS WEBSITE , BLOG ETC...) </SPAN> Can MAKE Website in pure Form or Using Frame Works , As Per Your Choice , As The Output Never Dissappoints You.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experince')">Experince</p>
+                        <p class="tab-links" onclick="opentab('Education')">Language Known</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Desining</span><br>I Will Not Design Websites Because U can Get Heart  Attact By seeing my
+                                Design.</li>
+                            <li><span>Web Development</span><br>Pro In HTML,CSS,JS</li>
+                            <li><span>Responiveness</span><br>My Website Can be Usable Even in Nokia Phones😎 </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experince">
+                        <ul>
+                            <li><span>I WORKED as ceo in Microsoft</span><br>I Worked near Bill Gates He was Nice Guy.</li>
+                            <li><span>Produced Rajamoli Movie</span><br>I produced Rajamoli Movie , Releseing in (2090)</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <div class="bhargav-5">
+
+                                <div class="circle aqua">
+                                    <div class="circle-inner">
+                                        86% - HTML
+                                    </div>
+                                </div>
+                                <div class="circle pink">
+                                    <div class="circle-inner">
+                                        65% - CSS
+                                    </div>
+                                </div>
+                            <div class="circle gold">
+                                <div class="circle-inner">
+                                    40% - JS
+                                </div>
+                            </div>
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusantium culpa repudiandae
+                        sunt aliquam quam tempora commodi ipsa provident. Aut, numquam nemo culpa quis commodi
+                        necessitatibus? Non distinctio quisquam libero.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Games</h2>
+                    <p>I HAVE MADE GAMES LIKE TIC TAC TOE , SNAKE GAME, AND MORE 
+                        I CAN MAKE A NORMAL GAME WHEN Your user IS OFFLINE
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>Full Customization</h2>
+                    <p>I Will Provide Top Notch Customization In Your Website , INCLUDES Color , Background , Type Of Nav Bar , Single Page Or Web App , PURE Form or Frame Works.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Potfolio -->
+    <div id="potfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/li.jpg">
+                    <div class="layer">
+                        <h3>Water Drop Sign In</h3>
+                        <p>This Is A Unique Sign In Page , Made By Bhargav. It Looks Like A drop Under A Ocean</p>
+                        <a href="waterdrop signin/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/li2.png">
+                    <div class="layer">
+                        <h3>Tic Tac Toe </h3>
+                        <p>THIS IS A NORMAL TIC TAC TOE GAME , MADE USING PURE JS.</p>
+                        <a href="tic tac toe/bh.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/snake.png">
+                    <div class="layer">
+                        <h3>Snake Game</h3>
+                        <p>THIS GAME INCLUDES HIGH SCORE AND SCORE , MADE USING PURE HTML,CSS,JS</p>
+                        <a href="Snake game/pr5.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- Conatct -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> contact@bhargav.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7483487932</p>
+                    <div class="icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="#" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <pre>copyright &copy;  Bhargav. Made By Legend Bhargav </pre>
+        </div>
+    </div>
+
+
+
+    <!-- <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form>
+       -->
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwOTMD8KLJihDzDeIEDoKsgbExle7jP24mx8JUsHXzv7FomVFH5ygwXOh3sh9_ifsK3Zw/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById('msg');
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Sucessfully";
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/2867909ce2.js" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+    let toggle = document.querySelector('.toggle');
+    let menu = document.querySelector('.menu');
+toggle.onclick = function(){
+menu.classList.toggle('active')
+
+}
+
+
+</script>
+
+</html>
